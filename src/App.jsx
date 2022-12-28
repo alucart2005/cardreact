@@ -7,15 +7,15 @@ import Button from './components/Button';
 
 function App() {
   
-  function randomColor(array) {
+  function randomData(array) {
     let indexRandomColor = Math.floor(Math.random() * array.length);
     return indexRandomColor;
   }
 
-  let numberRamdon = randomColor(data);
+  let numberRamdon = randomData(data);
   const [indexRamdon, setIndexRamdom] = useState(numberRamdon);
-  let color = randomColor(colors);
-
+  console.log(indexRamdon);
+  let color = randomData(colors);
   const bgColor = {
     backgroundColor: colors[color],
     color: colors[color],
@@ -43,7 +43,7 @@ function App() {
         }> 
         {<Button
           click={() =>
-          setIndexRamdom(randomColor(data))}
+          setIndexRamdom(randomData(data))}
         icon={<i className='bx bx-shuffle bx-tada' ></i>}
       />}
       </div>
