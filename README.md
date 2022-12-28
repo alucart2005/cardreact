@@ -6,7 +6,7 @@ This is a react application that shows a card with content and changing colors w
 
 **NAPOLEON ANAYA ROMERO**
 
--	[www.linkedin.com/in/gabrielmartinezghioma](www.linkedin.com/in/gabrielmartinezghioma)
+-	[https://www.linkedin.com/in/napoleon-de-jesus-anaya-romero-8872ba127/](https://www.linkedin.com/in/napoleon-de-jesus-anaya-romero-8872ba127/)
 
 -	[https://gabrielmartinezghioma.netlify.app/](https://gabrielmartinezghioma.netlify.app/)
 
@@ -19,8 +19,8 @@ This is a react application that shows a card with content and changing colors w
 
 ## Instalacion 
 
-	Este proyecto necesita instalación de node modules. Simplemente ejecuta en la carpeta contenedora del archivo clonado npm i, o, npm install
+This project needs installation of node modules. Just run npm i in the folder containing the cloned file, or, npm install.
 
 ## Contratación 
-	Si quieres contratarme puedes escribirme a gabrielalejandromartinez@gmail.com
+If you want to hire me you can write to napoleonanaya@gmail.com
 
