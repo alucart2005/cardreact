@@ -1,10 +1,10 @@
 ## Descripción 🇦🇷🇪🇸
 
-      Este es un proyecto en el que se creo una aplicación que muestra la información de un usuario en una tarjeta, y cuenta con un botón para cambiar de manera aleatoria. Al cambiar el usuario, cambia el color del fondo, de letra, y del botón.
+This is a react application that shows a card with content and changing colors when pressing a button.
 
 ## Autor ✍
 
-**GABRIEL ALEJANDRO MARTINEZ**
+**NAPOLEON ANAYA ROMERO**
 
 -	[www.linkedin.com/in/gabrielmartinezghioma](www.linkedin.com/in/gabrielmartinezghioma)
 
@@ -13,7 +13,7 @@
 ## Ver ejemplo en vivo
 
 - [https://ramdonusers.netlify.app/](https://ramdonusers.netlify.app/)
-![Image text](https://github.com/gabrielmartinezghioma/React-Academlo/blob/main/src/images/ilustracion.png)
+![Image text](https://github.com/alucart2005/cardreact/blob/main/src/images/card.png)
 
 
 
