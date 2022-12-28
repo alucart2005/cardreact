@@ -14,7 +14,6 @@ function App() {
 
   let numberRamdon = randomData(data);
   const [indexRamdon, setIndexRamdom] = useState(numberRamdon);
-  console.log(indexRamdon);
 
   let color = randomData(colors);
   const bgColor = {
