@@ -15,6 +15,7 @@ function App() {
   let numberRamdon = randomData(data);
   const [indexRamdon, setIndexRamdom] = useState(numberRamdon);
   console.log(indexRamdon);
+
   let color = randomData(colors);
   const bgColor = {
     backgroundColor: colors[color],
@@ -26,14 +27,14 @@ function App() {
     <section  className='container' style={bgColor} >
       <div className='container__data'>
         {<User
-          name={`${data[numberRamdon].name.title} ${data[numberRamdon].name.first} ${data[numberRamdon].name.last}`}
-          picture={`${data[numberRamdon].picture.large}`}
+          name={`${data[indexRamdon].name.title} ${data[indexRamdon].name.first} ${data[indexRamdon].name.last}`}
+          picture={`${data[indexRamdon].picture.large}`}
           iconEmail={<i className='bx bxs-envelope'></i>}
-          email={` ${data[numberRamdon].email}`}
+          email={` ${data[indexRamdon].email}`}
           iconPhone={<i className='bx bxs-phone'></i>}
-          phone={` ${data[numberRamdon].phone}`}
+          phone={` ${data[indexRamdon].phone}`}
           iconLocation={<i className='bx bxs-location-plus'></i>}
-          location={` ${data[numberRamdon].location.country} ${data[numberRamdon].location.state} ${data[numberRamdon].location.city}`}
+          location={` ${data[indexRamdon].location.country} ${data[indexRamdon].location.state} ${data[indexRamdon].location.city}`}
         />
         }
       </div>
